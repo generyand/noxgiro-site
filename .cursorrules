@@ -1,0 +1,68 @@
+You are an expert in JavaScript, Node.js, Express.js, React, Redux, TailwindCSS, Framer Motion, OpenAI's API, and Socket.io for WebSockets.
+Code Style and Structure
+- Write concise, clean JavaScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid class-based components.
+- Modularize code to avoid duplication and improve reusability.
+- Use descriptive variable names with context-specific verbs (e.g., isLoading, hasError).
+- Structure files by separating core components, WebSocket logic, helpers, static content, utility functions, and backend services.
+
+Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/chat-support).
+- Favor named exports for components, hooks, and WebSocket utilities.
+
+JavaScript Usage
+- Use ES6+ features for clarity and conciseness (e.g., let, const, arrow functions, destructuring).
+- Avoid using classes; stick to functional components and hooks.
+- Use arrow functions for components, event handlers, callbacks, and WebSocket event handling.
+
+Syntax and Formatting
+- Use the "function" keyword for utility and pure functions.
+- Avoid unnecessary curly braces in simple conditionals; use concise syntax for single-line statements.
+- Use destructuring where applicable to reduce redundancy.
+- Declarative JSX for clean, readable React code.
+
+UI and Styling
+- TailwindCSS for layout and responsiveness; follow mobile-first design principles.
+- Use Framer Motion for animations and transitions, ensuring smooth, responsive interactions.
+- Stick to consistent spacing and typography for a clean, cohesive UI.
+- Focus on accessibility and responsiveness in all UI components.
+
+Backend Integration (Node.js/Express.js)
+- API Key Security: All interactions with OpenAI's API should be routed through your Node.js/Express.js backend to keep the API key secure.
+- Route structure: Organize backend API routes clearly, with separate controllers for OpenAI requests, WebSocket events, and other services (e.g., /api/openai).
+- Implement robust error handling in the backend for API rate limits, timeouts, WebSocket errors, and general API failures. Send meaningful error messages or fallback responses to the frontend.
+- Cache frequent or similar AI responses in the backend to reduce redundant API calls.
+- Use environment variables (e.g., dotenv) to store sensitive keys (e.g., OpenAI API key), and never expose them in the frontend.
+
+AI Integration (OpenAI API)
+- API Error Handling: Ensure robust error handling for cases like API limits or slow responses. Display fallback messages to maintain a smooth user experience.
+- Design API request/response logic to be modular and reusable in the backend (Node.js/Express.js).
+- Implement loading states in the frontend (e.g., "isLoading") when waiting for AI responses.
+- Cache responses where applicable in the backend to reduce redundant API calls and improve user experience.
+
+WebSocket Integration (Socket.io)
+- Use Socket.io for real-time communication between the client and server, such as delivering AI responses or handling user chat sessions.
+- Organize WebSocket logic in a dedicated folder (e.g., /websockets).
+- Implement WebSocket connection management and event handling in the Node.js/Express.js backend.
+- Ensure that the WebSocket connection is re-established gracefully in case of disconnection or network issues.
+- Handle realtime updates in the chat interface using Socket.io for seamless user experience (e.g., instant delivery of AI responses, typing indicators).
+- Implement error handling and fallback mechanisms for WebSocket communication to handle connection issues smoothly.
+
+Performance Optimization
+- Minimize heavy re-renders by optimizing component structure and using React’s memoization where necessary.
+- Use lazy loading and dynamic imports for non-critical components (e.g., chat history or settings).
+- Optimize image handling: prefer WebP for better performance, and implement lazy loading for images and other media assets.
+- Ensure Framer Motion animations are performant, especially on slower devices. Regularly profile the app on different devices to avoid animation jank.
+- Profile and optimize WebSocket event handling to ensure the server can handle multiple concurrent users efficiently.
+
+State Management (Redux)
+- Use Redux for managing chat history, user sessions, and global application state.
+- Organize Redux code by splitting state logic into slices using createSlice for modular and maintainable state management.
+- Prefer Redux Toolkit for writing less boilerplate and simplifying reducers, actions, and middleware.
+- Use Redux DevTools during development to track and debug the state.
+
+Key Conventions
+- Avoid unnecessary "useEffect": prefer state-driven render updates when possible.
+- Implement error boundaries for error management in the AI chat support feature.
+- Test UI responsiveness and accessibility on mobile devices and ensure compatibility with screen readers.
+- Socket.io: Monitor WebSocket performance and optimize real-time interactions for scalability.
