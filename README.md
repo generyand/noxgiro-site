@@ -37,8 +37,8 @@ NoxGiro is a modern website that offers advanced web services, including AI-powe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/next-gen-services.git
-   cd next-gen-services
+   git clone https://github.com/your-username/noxgiro-site.git
+   cd noxgiro-site
    ```
 
 2. Install dependencies:
@@ -56,9 +56,9 @@ NoxGiro is a modern website that offers advanced web services, including AI-powe
    npm run dev
    ```
 
-5. Open your browser and navigate to `http://localhost:3000`
+5. Open your browser and navigate to `http://localhost:5173`
 
-## Project Structure
+<!-- ## Project Structure
 
 - `/components`: React components
 - `/pages`: Next.js pages
@@ -66,7 +66,7 @@ NoxGiro is a modern website that offers advanced web services, including AI-powe
 - `/redux`: Redux store, slices, and actions
 - `/utils`: Utility functions
 - `/api`: API routes for backend integration
-- `/websockets`: WebSocket logic
+- `/websockets`: WebSocket logic -->
 
 ## Contributing
 
