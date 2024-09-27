@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
+import ReactMarkdown from 'react-markdown';
 
 const socket = io('http://localhost:5000'); // Adjust the URL as needed
 
@@ -45,12 +46,33 @@ function ChatComponent() {
     }
   };
 
+  const formatMessage = (text) => {
+    // Convert bullet points to markdown list items
+    text = text.replace(/(\d+\.\s+)/g, '\n$1');
+    text = text.replace(/(-\s+)/g, '\n- ');
+    
+    // Add line breaks before headings
+    text = text.replace(/(\*\*[^*]+\*\*)/g, '\n\n$1\n');
+    
+    // Ensure proper spacing for list items
+    text = text.replace(/\n-/g, '\n\n-');
+    text = text.replace(/\n(\d+\.)/g, '\n\n$1');
+    
+    return text.trim();
+  };
+
   return (
     <div className="chat-container">
       <div className="message-list">
         {messages.map((msg, index) => (
           <div key={index} className={`message ${msg.isAi ? 'ai' : 'user'}`}>
-            {msg.text}
+            {msg.isAi ? (
+              <ReactMarkdown className="markdown-content">
+                {formatMessage(msg.text)}
+              </ReactMarkdown>
+            ) : (
+              msg.text
+            )}
           </div>
         ))}
         {isAiTyping && <div className="typing-indicator">AI is typing...</div>}

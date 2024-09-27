@@ -1,0 +1,59 @@
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"s56l5uix","transport":"polling"},"timestamp":"2024-09-27T13:49:49.129Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-09-27T13:49:53.398Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"s5bj2nha","transport":"polling"},"timestamp":"2024-09-27T13:49:53.441Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"s5ifhk73","transport":"polling"},"timestamp":"2024-09-27T13:50:02.386Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T13:50:06.149Z"}
+{"level":"info","message":"Knowledge base loaded successfully","timestamp":"2024-09-27T13:50:06.152Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T13:50:06.152Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T13:50:07.229Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T13:50:07.230Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"s77vyuwc","transport":"polling"},"timestamp":"2024-09-27T13:51:22.037Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"s8wugey6","transport":"polling"},"timestamp":"2024-09-27T13:52:41.046Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"sdpou6qe","transport":"polling"},"timestamp":"2024-09-27T13:56:25.051Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-09-27T14:25:21.722Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"texqq1bz","transport":"polling"},"timestamp":"2024-09-27T14:25:21.751Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:39:17.012Z"}
+{"level":"info","message":"Knowledge base loaded successfully","timestamp":"2024-09-27T14:39:17.014Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:39:17.015Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:39:21.581Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:39:21.582Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:39:46.534Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:39:46.535Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:39:48.294Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:39:48.295Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:40:22.191Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:40:22.192Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:40:24.012Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:40:24.013Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:40:37.713Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:40:37.713Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:40:40.550Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:40:40.551Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:41:45.866Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:41:45.866Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:41:47.253Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:41:47.253Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:42:09.552Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:42:09.552Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:42:10.865Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:42:10.866Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:42:31.647Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:42:31.648Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:42:33.087Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:42:33.088Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:43:16.040Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:43:16.041Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:43:17.163Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:43:17.164Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:43:34.571Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:43:34.572Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:43:36.208Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:43:36.209Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:43:53.657Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:43:53.658Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:43:55.188Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:43:55.189Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-09-27T14:45:26.789Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-09-27T14:45:26.789Z"}
+{"level":"info","message":"AI response:","timestamp":"2024-09-27T14:45:28.349Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-09-27T14:45:28.350Z"}
