@@ -2,7 +2,13 @@ import { getChatResponseForSocket } from '../controllers/openaiController.js';
 
 export default function setupWebSocket(io) {
   io.on('connection', (socket) => {
-    console.log('A user connected');
+    // console.log('A user connected', {
+    //   id: socket.id,
+    //   time: new Date().toISOString(),
+    //   query: socket.handshake.query
+    // });
+
+    console.log("A user connected", socket.handshake.query);
 
     socket.on('chat message', async (msg) => {
       try {

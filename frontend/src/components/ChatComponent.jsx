@@ -61,6 +61,7 @@ function ChatComponent() {
           value={inputMessage}
           onChange={(e) => setInputMessage(e.target.value)}
           placeholder="Type your message..."
+          className="message-input text-gray-950"
         />
         <button type="submit">Send</button>
       </form>
