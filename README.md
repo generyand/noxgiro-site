@@ -37,7 +37,7 @@ NoxGiro is a modern website that offers advanced web services, including AI-powe
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/noxgiro-site.git
+   git clone https://github.com/generyand/noxgiro-site.git
    cd noxgiro-site
    ```
 
