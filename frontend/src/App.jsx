@@ -1,12 +1,16 @@
-import React from 'react'
-import ChatComponent from './components/ChatComponent'
+import React from 'react';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
+import ChatComponent from './components/Chat/ChatComponent';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <ChatComponent />
-    </div>
-  )
+    <Provider store={store}>
+      <div className="App">
+        <ChatComponent />
+      </div>
+    </Provider>
+  );
 }
 
-export default App
+export default App;
