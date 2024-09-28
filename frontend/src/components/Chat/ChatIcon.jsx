@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaComments } from 'react-icons/fa';
+import { IoChatbubbleEllipsesOutline } from 'react-icons/io5';
 
 const ChatIcon = ({ onClick }) => {
   return (
@@ -14,7 +14,7 @@ const ChatIcon = ({ onClick }) => {
         onClick={onClick}
         className="flex items-center justify-center w-16 h-16 text-white bg-blue-500 rounded-full shadow-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
       >
-        <FaComments className="text-2xl" />
+        <IoChatbubbleEllipsesOutline className="text-3xl" />
       </button>
     </motion.div>
   );

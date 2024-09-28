@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
+import Markdown from "markdown-to-jsx";
 import { motion } from "framer-motion";
 
 const formatMessage = (text) => {
@@ -31,81 +31,106 @@ const Message = ({ message }) => (
             : "border-l-[12px] border-l-emerald-50 border-t-[6px] border-b-[6px] border-t-transparent border-b-transparent right-[-12px] top-4"
         }`}
       ></div>
-      <ReactMarkdown
-        className="prose prose-sm markdown-content max-w-none [&>*:first-child]:mt-0 [&>*:last-child]:mb-0"
-        components={{
-          p: ({ node, ...props }) => (
-            <p className="my-2 leading-relaxed" {...props} />
-          ),
-          ul: ({ node, ...props }) => (
-            <ul className="pl-5 my-2 space-y-1 list-disc" {...props} />
-          ),
-          ol: ({ node, ...props }) => (
-            <ol className="pl-8 my-2 space-y-2 list-decimal" {...props} />
-          ),
-          li: ({ node, ordered, ...props }) => (
-            <li className="pl-1 my-1" {...props} />
-          ),
-          h1: ({ node, ...props }) => (
-            <h1 className="my-3 text-xl font-bold" {...props} />
-          ),
-          h2: ({ node, ...props }) => (
-            <h2 className="my-3 text-lg font-semibold" {...props} />
-          ),
-          h3: ({ node, ...props }) => (
-            <h3 className="my-2 text-base font-medium" {...props} />
-          ),
-          code: ({ node, inline, ...props }) => 
-            inline ? (
-              <code
-                className="px-1 py-0.5 rounded bg-gray-100 text-sm font-mono"
-                {...props}
-              />
-            ) : (
-              <code
-                className="block p-2 my-2 overflow-x-auto font-mono text-sm bg-gray-100 rounded"
-                {...props}
-              />
-            ),
-          pre: ({ node, ...props }) => (
-            <pre
-              className="p-3 my-2 overflow-x-auto bg-gray-100 rounded-lg"
-              {...props}
-            />
-          ),
-          blockquote: ({ node, ...props }) => (
-            <blockquote
-              className="pl-4 my-2 italic border-l-4 border-gray-300"
-              {...props}
-            />
-          ),
-          a: ({ node, ...props }) => (
-            <a
-              className="text-blue-600 hover:underline"
-              target="_blank"
-              rel="noopener noreferrer"
-              {...props}
-            />
-          ),
-          img: ({ node, ...props }) => (
-            <img className="h-auto max-w-full my-2 rounded" {...props} />
-          ),
-          table: ({ node, ...props }) => (
-            <div className="my-2 overflow-x-auto">
-              <table className="min-w-full divide-y divide-gray-200" {...props} />
-            </div>
-          ),
-          th: ({ node, ...props }) => (
-            <th className="px-3 py-2 text-xs font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-50" {...props} />
-          ),
-          td: ({ node, ...props }) => (
-            <td className="px-3 py-2 text-sm text-gray-500 whitespace-nowrap" {...props} />
-          ),
+      <Markdown
+        options={{
+          overrides: {
+            p: {
+              props: {
+                className: "my-2 leading-relaxed",
+              },
+            },
+            ul: {
+              props: {
+                className: "pl-5 my-2 space-y-1 list-disc",
+              },
+            },
+            ol: {
+              props: {
+                className: "pl-8 my-2 space-y-2 list-decimal",
+              },
+            },
+            li: {
+              props: {
+                className: "pl-1 my-1",
+              },
+            },
+            h1: {
+              props: {
+                className: "my-3 text-xl font-bold",
+              },
+            },
+            h2: {
+              props: {
+                className: "my-3 text-lg font-semibold",
+              },
+            },
+            h3: {
+              props: {
+                className: "my-2 text-base font-medium",
+              },
+            },
+            code: {
+              component: CodeBlock,
+            },
+            pre: {
+              props: {
+                className: "p-3 my-2 overflow-x-auto bg-gray-100 rounded-lg",
+              },
+            },
+            blockquote: {
+              props: {
+                className: "pl-4 my-2 italic border-l-4 border-gray-300",
+              },
+            },
+            a: {
+              props: {
+                className: "text-blue-600 hover:underline",
+                target: "_blank",
+                rel: "noopener noreferrer",
+              },
+            },
+            img: {
+              props: {
+                className: "h-auto max-w-full my-2 rounded",
+              },
+            },
+            table: {
+              props: {
+                className: "min-w-full divide-y divide-gray-200 my-2",
+              },
+              component: ResponsiveTable,
+            },
+            th: {
+              props: {
+                className: "px-3 py-2 text-xs font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-50",
+              },
+            },
+            td: {
+              props: {
+                className: "px-3 py-2 text-sm text-gray-500 whitespace-normal break-words",
+              },
+            },
+          },
         }}
       >
         {formatMessage(message.text)}
-      </ReactMarkdown>
+      </Markdown>
     </motion.div>
+  </div>
+);
+
+const CodeBlock = ({ children, className }) => {
+  const language = className ? className.replace(/language-/, '') : '';
+  return (
+    <pre className={`p-2 my-2 overflow-x-auto font-mono text-sm bg-gray-100 rounded ${className}`}>
+      <code className={language}>{children}</code>
+    </pre>
+  );
+};
+
+const ResponsiveTable = ({ children, ...props }) => (
+  <div className="max-w-full overflow-x-auto">
+    <table {...props}>{children}</table>
   </div>
 );
 

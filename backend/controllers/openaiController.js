@@ -1,6 +1,7 @@
 import { openai } from '../config/openaiConfig.js';
 import { getKnowledgeBase } from '../utils/knowledgeBase.js';
 import logger from '../utils/logger.js';
+import { formatMarkdown } from '../utils/markdownFormatter.js';
 
 export const getChatResponse = async (req, res) => {
   try {
@@ -33,7 +34,20 @@ export const getChatResponseForSocket = async (message) => {
 
       User query: ${message}
 
-      Please provide a helpful and accurate response based on the information above.
+      Please provide a helpful and accurate response based on the information above. Use natural language for simple answers. Only use markdown formatting when it enhances readability or structure, such as for complex explanations, lists, or code examples. When markdown is appropriate, you may use:
+
+      - **Bold** for emphasis or important terms
+      - *Italics* for slight emphasis or technical terms
+      - Headings with # for main topics and ## for subtopics
+      - Bullet points or numbered lists for multiple items
+      - \`Inline code\` for short code snippets or commands
+      - Code blocks for longer code examples
+      - > For quotations or important notes
+      - Horizontal rules (---) to separate sections if needed
+      - [Links](URL) for references or additional resources
+      - Tables for structured data if necessary
+
+      Prioritize clarity and conciseness in your response. Use markdown only when it significantly improves the presentation of information.
     `;
 
     logger.info("Constructed prompt:", prompt);
@@ -46,8 +60,9 @@ export const getChatResponseForSocket = async (message) => {
       ],
     });
 
-    const response = completion.choices[0].message.content;
-    logger.info("AI response:", response);
+    let response = completion.choices[0].message.content;
+    response = formatMarkdown(response); // Apply additional formatting
+    logger.info("Formatted AI response:", response);
 
     return response;
   } catch (error) {
