@@ -1,18 +1,20 @@
 import React, { useEffect, useRef, useMemo, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { motion, AnimatePresence } from "framer-motion";
 
 import Message from "./Message";
 import ChatInput from "./ChatInput";
 import TypingIndicator from "./TypingIndicator";
+import ChatHeader from "./ChatHeader";
 import { useSocket } from "../../hooks/useSocket";
 import { addMessage } from "../../store/chatSlice";
 import { getRandomStartingMessage } from "./chatUtils";
-import { scrollbarStyles } from "./customStyles";
 
-const ChatComponent = () => {
+const ChatComponent = ({ onClose }) => {
   const dispatch = useDispatch();
   const { messages, isAiTyping } = useSelector((state) => state.chat);
   const messageListRef = useRef(null);
+  const chatRef = useRef(null);
   const initialMessageAddedRef = useRef(false);
   const { sendMessage } = useSocket();
 
@@ -32,7 +34,14 @@ const ChatComponent = () => {
     }
   }, []);
 
-  useEffect(scrollToBottom, [messages, isAiTyping]);
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages, isAiTyping, scrollToBottom]);
+
+  useEffect(() => {
+    addInitialMessage();
+    scrollToBottom();
+  }, [addInitialMessage, scrollToBottom]);
 
   const handleSubmit = useCallback(
     (inputMessage) => {
@@ -44,23 +53,81 @@ const ChatComponent = () => {
     [dispatch, sendMessage]
   );
 
+  const handleKeyDown = useCallback(
+    (e) => {
+      if (e.key === "Escape") {
+        onClose();
+      }
+    },
+    [onClose]
+  );
+
+  const handleOutsideClick = useCallback(
+    (e) => {
+      if (chatRef.current && !chatRef.current.contains(e.target)) {
+        onClose();
+      }
+    },
+    [onClose]
+  );
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("mousedown", handleOutsideClick);
+
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, [handleKeyDown, handleOutsideClick]);
+
   const memoizedMessages = useMemo(
-    () => messages.map((msg, index) => <Message key={index} message={msg} />),
+    () =>
+      messages.map((msg, index) => (
+        <motion.div
+          key={index}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+        >
+          <Message message={msg} />
+        </motion.div>
+      )),
     [messages]
   );
 
   return (
-    <div className="max-w-2xl p-4 mx-auto mt-24 bg-gray-100 rounded-lg shadow-md chat-container">
-      <div
-        ref={messageListRef}
-        className="mb-4 space-y-4 overflow-y-auto message-list h-96"
-        style={scrollbarStyles}
+    <AnimatePresence>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.3 }}
+        className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:bg-opacity-50 sm:p-4"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="chat-title"
       >
-        {memoizedMessages}
-        {isAiTyping && <TypingIndicator />}
-      </div>
-      <ChatInput onSubmit={handleSubmit} />
-    </div>
+        <div
+          ref={chatRef}
+          className="flex flex-col w-full h-full max-w-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm sm:rounded-lg"
+        >
+          <ChatHeader onClose={onClose} />
+          <div className="flex-grow overflow-hidden">
+            <div
+              ref={messageListRef}
+              className="flex flex-col h-full p-2 space-y-4 overflow-y-auto sm:p-4 message-list no-scrollbar"
+              aria-live="polite"
+            >
+              <div className="flex-grow" />
+              {memoizedMessages}
+              {isAiTyping && <TypingIndicator />}
+            </div>
+          </div>
+          <ChatInput onSubmit={handleSubmit} />
+        </div>
+      </motion.div>
+    </AnimatePresence>
   );
 };
 

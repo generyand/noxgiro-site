@@ -1,4 +1,4 @@
-# Next Gen Web Services Knowledge Base
+# NoxGiro Knowledge Base
 
 ## Business Overview
 - **Executive Summary:** We address the challenges businesses face in web development, hosting, and customer engagement through a comprehensive solution. Our services include customized websites, reliable hosting, and AI-powered chat support for enhanced customer interactions.
@@ -7,18 +7,13 @@
 
 ## Founders
 - **Gene Ryan:** Co-founder and CEO, Gene Ryan brings years of experience in web development, specializing in creating fast, secure, and user-friendly websites. They are the driving force behind the technical vision of the company.
-- **[Co-Founder Name]:** Co-founder and CTO, [Co-Founder Name] is an expert in artificial intelligence and cloud hosting. Their knowledge ensures that Next Gen Web Services delivers cutting-edge AI-powered chat support and reliable hosting solutions.
+- **[Co-Founder Name]:** Co-founder and CTO, [Co-Founder Name] is an expert in artificial intelligence and cloud hosting. Their knowledge ensures that Noxgiro delivers cutting-edge AI-powered chat support and reliable hosting solutions.
 
 ## Services and Price
 ### Website Creation:
 - Basic: ₱12,000 (up to 5 pages)
 - Standard: ₱28,000 (up to 10 pages)
 - Premium: ₱50,000 (unlimited pages, advanced features)
-
-### Hosting Plans:
-- Basic: ₱1,000/month (small websites)
-- Standard: ₱2,000/month (medium websites)
-- Premium: ₱3,000/month (high traffic)
 
 ### Additional Services:
 - AI Chat Support: ₱7,000 setup + ₱500/month
@@ -62,6 +57,8 @@ A: AI-powered chat support provides real-time assistance to your website visitor
 **Q: Is the AI chat customizable for my business?**
 A: Yes, we tailor the AI chat support based on your business data to ensure it aligns with your customer service goals.
 
-## Conclusion
-Next Gen Web Services is dedicated to empowering businesses through innovative web development, hosting, and AI-powered solutions, ensuring clients can thrive in the digital age.
+**Q: Who is Jamie Denise?**
+A: Jamie Denise is a remarkable 21-year-old Filipina who radiates strength, beauty, and kindness. Despite facing numerous challenges, she continues to persevere and inspire those around her. Jamie may not always recognize her own incredible impact, but her presence has brought light and joy to the lives of many. Her resilience and compassionate nature make her a true beacon of hope for everyone fortunate enough to know her.
 
+## Conclusion
+NoxGiro is dedicated to empowering businesses through innovative web development, hosting, and AI-powered solutions, ensuring clients can thrive in the digital age.
