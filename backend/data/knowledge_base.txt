@@ -1,60 +1,67 @@
-Next Gen Web Services Knowledge Base
-Business Overview
-- Executive Summary: We address the challenges businesses face in web development, hosting, and customer engagement through a comprehensive solution. Our services include customized websites, reliable hosting, and AI-powered chat support for enhanced customer interactions.
-- Problem: Many businesses struggle with online presence due to lack of expertise in design, hosting, and customer engagement tools.
-- Solution: Our service offers end-to-end web development, hosting, and AI-powered chat support to create responsive websites and enhance customer experience.
+# Next Gen Web Services Knowledge Base
 
-Founders
-- [Your Name]: Co-founder and CEO, [Your Name] brings years of experience in web development, specializing in creating fast, secure, and user-friendly websites. They are the driving force behind the technical vision of the company.
-- [Co-Founder Name]: Co-founder and CTO, [Co-Founder Name] is an expert in artificial intelligence and cloud hosting. Their knowledge ensures that Next Gen Web Services delivers cutting-edge AI-powered chat support and reliable hosting solutions.
+## Business Overview
+- **Executive Summary:** We address the challenges businesses face in web development, hosting, and customer engagement through a comprehensive solution. Our services include customized websites, reliable hosting, and AI-powered chat support for enhanced customer interactions.
+- **Problem:** Many businesses struggle with online presence due to lack of expertise in design, hosting, and customer engagement tools.
+- **Solution:** Our service offers end-to-end web development, hosting, and AI-powered chat support to create responsive websites and enhance customer experience.
 
-Services and Price
-- Website Creation:
-    - Basic: ₱12,000 (up to 5 pages)
-    - Standard: ₱28,000 (up to 10 pages)
-    - Premium: ₱50,000 (unlimited pages, advanced features)
-- Hosting Plans:
-    - Basic: ₱1,000/month (small websites)
-    - Standard: ₱2,000/month (medium websites)
-    - Premium: ₱3,000/month (high traffic)
-- Additional Services:
-    - AI Chat Support: ₱7,000 setup + ₱500/month
-    - SEO Optimization: ₱4,500/month
-    - Website Maintenance: ₱8,000/month
+## Founders
+- **Gene Ryan:** Co-founder and CEO, Gene Ryan brings years of experience in web development, specializing in creating fast, secure, and user-friendly websites. They are the driving force behind the technical vision of the company.
+- **[Co-Founder Name]:** Co-founder and CTO, [Co-Founder Name] is an expert in artificial intelligence and cloud hosting. Their knowledge ensures that Next Gen Web Services delivers cutting-edge AI-powered chat support and reliable hosting solutions.
 
-Target Market
-- We cater to businesses in the Philippines aiming to improve their online presence, from small startups to large enterprises.
+## Services and Price
+### Website Creation:
+- Basic: ₱12,000 (up to 5 pages)
+- Standard: ₱28,000 (up to 10 pages)
+- Premium: ₱50,000 (unlimited pages, advanced features)
 
-Innovation and Technology
-- Technological Advancements: Use of modern frameworks for fast, secure, and responsive websites.
-- AI-Powered Chat Support: Personalized real-time assistance using company-specific data.
-- Creative Web Design: Unique and visually stunning designs optimized for user experience.
-- Customizable Solutions: We offer tailored packages for each client’s specific needs.
+### Hosting Plans:
+- Basic: ₱1,000/month (small websites)
+- Standard: ₱2,000/month (medium websites)
+- Premium: ₱3,000/month (high traffic)
 
-Contact Information:
-Email: noxgiro@gmail.com
-Phone: +63 912 345 6789
-Address: Digos City, Davao del Sur, Philippines
+### Additional Services:
+- AI Chat Support: ₱7,000 setup + ₱500/month
+- SEO Optimization: ₱4,500/month
+- Website Maintenance: ₱8,000/month
 
-FAQs
-[Category] Website Development
-[Q] How long does it take to develop a website?
-[A] For a basic website (up to 5 pages), it typically takes 2-4 weeks. More complex websites may take 6-8 weeks depending on the features and design.
-[Q] Do you offer custom solutions outside your listed packages?
-[A] Yes, we can tailor our services to meet your specific needs. Just contact us, and we’ll work out a customized package for your business.
+## Target Market
+We cater to businesses in the Philippines aiming to improve their online presence, from small startups to large enterprises.
 
-[Category] Hosting and Maintenance
-[Q] Do you offer website maintenance after launch?
-[A] Yes, we offer a monthly maintenance plan starting at ₱8,000 to ensure your website is always up-to-date, secure, and performing well.
-[Q] Can I upgrade my hosting plan later?
-[A] Absolutely! You can upgrade your hosting plan at any time to accommodate higher traffic or additional features.
+## Innovation and Technology
+- **Technological Advancements:** Use of modern frameworks for fast, secure, and responsive websites.
+- **AI-Powered Chat Support:** Personalized real-time assistance using company-specific data.
+- **Creative Web Design:** Unique and visually stunning designs optimized for user experience.
+- **Customizable Solutions:** We offer tailored packages for each client's specific needs.
 
-[Category] AI Chat Support
-[Q] What is AI-powered chat support, and how does it work?
-[A] AI-powered chat support provides real-time assistance to your website visitors by using company-specific data to answer common questions, improving customer engagement and satisfaction.
-[Q] Is the AI chat customizable for my business?
-[A] Yes, we tailor the AI chat support based on your business data to ensure it aligns with your customer service goals.
+## Contact Information:
+- Email: noxgiro@gmail.com
+- Phone: +63 912 345 6789
+- Address: Digos City, Davao del Sur, Philippines
 
-7.	Conclusion
-- Next Gen Web Services is dedicated to empowering businesses through innovative web development, hosting, and AI-powered solutions, ensuring clients can thrive in the digital age.
+## FAQs
+
+### Website Development
+**Q: How long does it take to develop a website?**
+A: For a basic website (up to 5 pages), it typically takes 2-4 weeks. More complex websites may take 6-8 weeks depending on the features and design.
+
+**Q: Do you offer custom solutions outside your listed packages?**
+A: Yes, we can tailor our services to meet your specific needs. Just contact us, and we'll work out a customized package for your business.
+
+### Hosting and Maintenance
+**Q: Do you offer website maintenance after launch?**
+A: Yes, we offer a monthly maintenance plan starting at ₱8,000 to ensure your website is always up-to-date, secure, and performing well.
+
+**Q: Can I upgrade my hosting plan later?**
+A: Absolutely! You can upgrade your hosting plan at any time to accommodate higher traffic or additional features.
+
+### AI Chat Support
+**Q: What is AI-powered chat support, and how does it work?**
+A: AI-powered chat support provides real-time assistance to your website visitors by using company-specific data to answer common questions, improving customer engagement and satisfaction.
+
+**Q: Is the AI chat customizable for my business?**
+A: Yes, we tailor the AI chat support based on your business data to ensure it aligns with your customer service goals.
+
+## Conclusion
+Next Gen Web Services is dedicated to empowering businesses through innovative web development, hosting, and AI-powered solutions, ensuring clients can thrive in the digital age.
 
