@@ -16,9 +16,9 @@ function App() {
   return (
     <Provider store={store}>
       <Router>
-        <div className="flex flex-col min-h-screen App">
+        <div className="flex flex-col App">
           <Header />
-          <main className="flex-grow pt-16"> {/* Add padding-top to account for fixed header */}
+          <main className=""> {/* Add padding-top to account for fixed header */}
             <Routes>
               <Route path="/" element={<Home />} />
             </Routes>
