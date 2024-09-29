@@ -122,8 +122,9 @@ const ChatComponent = ({ onClose }) => {
             >
               <div
                 ref={messageListRef}
-                className="flex flex-col p-4 space-y-4"
+                className="flex flex-col h-full p-4 space-y-4"
               >
+                <div className="flex-grow"/>
                 {memoizedMessages}
                 {isAiTyping && <TypingIndicator />}
               </div>
