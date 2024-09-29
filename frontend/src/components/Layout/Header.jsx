@@ -69,7 +69,7 @@ const Header = () => {
   const [isMenuOpen, toggleMenu] = useToggle(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-40 text-white bg-gray-900">
+    <header className="fixed top-0 left-0 right-0 z-40 text-white bg-gray-900 bg-opacity-50 backdrop-blur-md">
       <div className="container flex items-center justify-between px-4 py-4 mx-auto">
         <Link to="/" className="text-2xl font-bold tracking-tighter">
           NoxGiro
