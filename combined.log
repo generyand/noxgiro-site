@@ -228,3 +228,8 @@
 {"level":"info","message":"Constructed prompt:","timestamp":"2024-09-28T23:16:17.105Z"}
 {"level":"info","message":"Formatted AI response:","timestamp":"2024-09-28T23:16:18.511Z"}
 {"level":"info","message":"Sending AI response:","timestamp":"2024-09-28T23:16:18.511Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"rxa3syxl","transport":"polling"},"timestamp":"2024-09-28T23:19:10.739Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-09-28T23:42:26.928Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"ss3yfo3s","transport":"polling"},"timestamp":"2024-09-28T23:43:09.063Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-09-28T23:43:09.285Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"ss47zw9a","transport":"polling"},"timestamp":"2024-09-28T23:43:09.420Z"}
