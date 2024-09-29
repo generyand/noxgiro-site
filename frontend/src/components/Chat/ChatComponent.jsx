@@ -113,6 +113,7 @@ const ChatComponent = ({ onClose }) => {
         <div
           ref={chatRef}
           className="flex flex-col w-full h-full max-w-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm sm:rounded-lg"
+          style={{ height: `calc(100% - ${keyboardHeight}px)` }}
         >
           <ChatHeader onClose={onClose} />
           <div className="flex flex-col flex-grow overflow-hidden">
@@ -129,7 +130,9 @@ const ChatComponent = ({ onClose }) => {
                 {isAiTyping && <TypingIndicator />}
               </div>
             </div>
-            <ChatInput onSubmit={handleSubmit} />
+            <div className="sticky bottom-0 w-full bg-gradient-to-br from-gray-900/90 to-gray-800/90">
+              <ChatInput onSubmit={handleSubmit} />
+            </div>
           </div>
         </div>
       </motion.div>
