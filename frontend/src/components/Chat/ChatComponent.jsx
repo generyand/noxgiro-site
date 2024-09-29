@@ -105,30 +105,31 @@ const ChatComponent = ({ onClose }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3 }}
-        className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:bg-opacity-50 sm:p-4"
+        className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:bg-opacity-50 sm:p-8 md:p-16"
         role="dialog"
         aria-modal="true"
         aria-labelledby="chat-title"
-        style={{ paddingBottom: keyboardHeight }}
       >
         <div
           ref={chatRef}
           className="flex flex-col w-full h-full max-w-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm sm:rounded-lg"
         >
           <ChatHeader onClose={onClose} />
-          <div className="flex-grow overflow-hidden">
+          <div className="flex flex-col flex-grow overflow-hidden">
             <div
-              ref={messageListRef}
-              className="flex flex-col h-full p-2 space-y-4 overflow-y-auto sm:p-4 message-list no-scrollbar"
-              style={{ paddingBottom: keyboardHeight }}
+              className="flex-grow overflow-y-auto message-list no-scrollbar"
               aria-live="polite"
             >
-              <div className="flex-grow" />
-              {memoizedMessages}
-              {isAiTyping && <TypingIndicator />}
+              <div
+                ref={messageListRef}
+                className="flex flex-col p-4 space-y-4"
+              >
+                {memoizedMessages}
+                {isAiTyping && <TypingIndicator />}
+              </div>
             </div>
+            <ChatInput onSubmit={handleSubmit} />
           </div>
-          <ChatInput onSubmit={handleSubmit} />
         </div>
       </motion.div>
     </AnimatePresence>
