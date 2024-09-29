@@ -9,6 +9,7 @@ import ChatHeader from "./ChatHeader";
 import { useSocket } from "../../hooks/useSocket";
 import { addMessage } from "../../store/chatSlice";
 import { getRandomStartingMessage } from "./chatUtils";
+import { useKeyboardAware } from '../../hooks/useKeyboardAware';
 
 const ChatComponent = ({ onClose }) => {
   const dispatch = useDispatch();
@@ -17,6 +18,7 @@ const ChatComponent = ({ onClose }) => {
   const chatRef = useRef(null);
   const initialMessageAddedRef = useRef(false);
   const { sendMessage } = useSocket();
+  const keyboardHeight = useKeyboardAware();
 
   const addInitialMessage = useCallback(() => {
     if (messages.length === 0 && !initialMessageAddedRef.current) {
@@ -107,6 +109,7 @@ const ChatComponent = ({ onClose }) => {
         role="dialog"
         aria-modal="true"
         aria-labelledby="chat-title"
+        style={{ paddingBottom: keyboardHeight }}
       >
         <div
           ref={chatRef}
@@ -117,6 +120,7 @@ const ChatComponent = ({ onClose }) => {
             <div
               ref={messageListRef}
               className="flex flex-col h-full p-2 space-y-4 overflow-y-auto sm:p-4 message-list no-scrollbar"
+              style={{ paddingBottom: keyboardHeight }}
               aria-live="polite"
             >
               <div className="flex-grow" />

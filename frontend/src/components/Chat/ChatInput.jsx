@@ -2,9 +2,11 @@ import React, { useState, useCallback } from 'react';
 import { IoSendSharp } from 'react-icons/io5';
 import { RiRobot2Line } from 'react-icons/ri';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useKeyboardAware } from '../../hooks/useKeyboardAware';
 
 const ChatInput = ({ onSubmit }) => {
   const [inputMessage, setInputMessage] = useState('');
+  const keyboardHeight = useKeyboardAware();
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
@@ -15,7 +17,15 @@ const ChatInput = ({ onSubmit }) => {
   }, [inputMessage, onSubmit]);
 
   return (
-    <form onSubmit={handleSubmit} className="relative flex items-center p-4 bg-gray-900 shadow-lg">
+    <form 
+      onSubmit={handleSubmit} 
+      className="relative flex items-center p-4 bg-gray-900 shadow-lg"
+      style={{ 
+        position: 'sticky', 
+        bottom: keyboardHeight, 
+        zIndex: 10 
+      }}
+    >
       <RiRobot2Line className="absolute text-blue-400 left-6" size={24} />
       <input
         type="text"
