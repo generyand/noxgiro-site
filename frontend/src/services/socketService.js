@@ -1,6 +1,6 @@
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:5000'); // Adjust the URL as needed
+const socket = io(process.env.BACKEND_URL || 'http://localhost:5000'); // Adjust the URL as needed
 
 export const initializeSocket = ({ onAiMessage, onAiTyping, onError }) => {
   socket.on('ai message', onAiMessage);
