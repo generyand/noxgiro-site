@@ -9,7 +9,7 @@ import ChatHeader from "./ChatHeader";
 import { useSocket } from "../../hooks/useSocket";
 import { addMessage } from "../../store/chatSlice";
 import { getRandomStartingMessage } from "./chatUtils";
-import { useKeyboardAware } from '../../hooks/useKeyboardAware';
+import { useKeyboardAware } from "../../hooks/useKeyboardAware";
 
 const ChatComponent = ({ onClose }) => {
   const dispatch = useDispatch();
@@ -105,15 +105,15 @@ const ChatComponent = ({ onClose }) => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         transition={{ duration: 0.3 }}
-        className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:bg-opacity-50 sm:p-8 md:p-16"
+        className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 sm:p-12 md:p-24"
         role="dialog"
         aria-modal="true"
         aria-labelledby="chat-title"
       >
         <div
           ref={chatRef}
-          className="flex flex-col w-full h-full max-w-3xl overflow-hidden shadow-2xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm sm:rounded-lg"
-          style={{ height: `calc(100% - ${keyboardHeight}px)` }}
+          className="absolute inset-0 flex flex-col w-full h-full max-w-3xl mx-auto overflow-hidden shadow-2xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-sm sm:relative sm:inset-auto sm:rounded-lg"
+          style={{ bottom: `${keyboardHeight}px` }}
         >
           <ChatHeader onClose={onClose} />
           <div className="flex flex-col flex-grow overflow-hidden">
@@ -125,12 +125,12 @@ const ChatComponent = ({ onClose }) => {
                 ref={messageListRef}
                 className="flex flex-col h-full p-4 space-y-4"
               >
-                <div className="flex-grow"/>
+                <div className="flex-grow" />
                 {memoizedMessages}
                 {isAiTyping && <TypingIndicator />}
               </div>
             </div>
-            <div className="sticky bottom-0 w-full bg-gradient-to-br from-gray-900/90 to-gray-800/90">
+            <div className="w-full bg-gradient-to-br from-gray-900/90 to-gray-800/90">
               <ChatInput onSubmit={handleSubmit} />
             </div>
           </div>

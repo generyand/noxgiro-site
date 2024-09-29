@@ -6,8 +6,11 @@
 - **Solution:** Our service offers end-to-end web development, hosting, and AI-powered chat support to create responsive websites and enhance customer experience.
 
 ## Founders
-- **Gene Ryan:** Co-founder and CEO, Gene Ryan brings years of experience in web development, specializing in creating fast, secure, and user-friendly websites. They are the driving force behind the technical vision of the company.
-- **[Co-Founder Name]:** Co-founder and CTO, [Co-Founder Name] is an expert in artificial intelligence and cloud hosting. Their knowledge ensures that Noxgiro delivers cutting-edge AI-powered chat support and reliable hosting solutions.
+- **Gene Ryan:** is a 21-year-old Filipino entrepreneur who is passionate about technology and business. He is the founder of NoxGiro and is dedicated to helping businesses succeed in the digital age.
+- **Vincent Ace:** is a 20-year-old Filipino student who is passionate about technology. He is a quiet but incredibly talented individual. While he may not say much, his skills speak volumes. Vincent is a key member of the NoxGiro team and contributes significantly to helping businesses succeed in the digital age.
+- **Asnari:** is a talented 21-year-old Filipino who excels in marketing. His passion for technology and business drives his contributions to NoxGiro, where he plays a key role in helping businesses succeed in the digital age through his marketing expertise.
+- **Fernyl Jean:** is a talented 21-year-old Filipina designer who excels in various aspects of visual communication. Her expertise spans web design, UI/UX design, and graphic design. Fernyl Jean's creative skills and passion for technology make her a valuable asset to NoxGiro, where she contributes significantly to crafting visually appealing and user-friendly digital solutions for businesses.
+- **Bajig:** is a passionate Filipino entrepreneur with a keen interest in technology and business. As a co-founder of NoxGiro, he plays a crucial role in shaping the company's vision and strategy. Bajig's innovative mindset and dedication to leveraging technology drive NoxGiro's mission to help businesses thrive in the digital landscape.
 
 ## Services and Price
 ### Website Creation:
