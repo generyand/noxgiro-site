@@ -558,3 +558,10 @@
 {"level":"info","message":"Constructed prompt:","timestamp":"2024-10-03T01:23:33.752Z"}
 {"level":"info","message":"Formatted AI response:","timestamp":"2024-10-03T01:23:42.417Z"}
 {"level":"info","message":"Sending AI response:","timestamp":"2024-10-03T01:23:42.418Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"wp27bhd6","transport":"polling"},"timestamp":"2024-10-03T06:19:22.365Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-10-03T06:19:27.324Z"}
+{"level":"info","message":"Knowledge base loaded successfully","timestamp":"2024-10-03T06:19:27.327Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-10-03T06:19:27.328Z"}
+{"level":"info","message":"Formatted AI response:","timestamp":"2024-10-03T06:19:28.952Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-10-03T06:19:28.952Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"wq4n1rnw","transport":"polling"},"timestamp":"2024-10-03T06:20:12.169Z"}
