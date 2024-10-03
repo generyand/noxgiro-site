@@ -44,7 +44,7 @@ const Hero = () => {
             className="text-5xl font-extrabold text-transparent sm:text-6xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-blue-500 via-sky-400 to-sky-300"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+            transition={{ duration: 0.8}}
           >
             NoxGiro
           </motion.span>
@@ -52,7 +52,7 @@ const Hero = () => {
             className="px-4 mb-6 text-base text-gray-300 sm:mb-8 sm:text-xl md:text-2xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
+            transition={{ duration: 0.5}}
           >
             Elevate your online presence with AI-powered web solutions: Design,
             Develop, and Engage.
