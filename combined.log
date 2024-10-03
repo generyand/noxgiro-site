@@ -620,3 +620,7 @@
 {"level":"info","message":"Constructed prompt:","timestamp":"2024-10-03T06:51:21.777Z"}
 {"level":"info","message":"Formatted AI response:","timestamp":"2024-10-03T06:51:23.257Z"}
 {"level":"info","message":"Sending AI response:","timestamp":"2024-10-03T06:51:23.257Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-10-03T06:52:36.995Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"xvtb28ui","transport":"polling"},"timestamp":"2024-10-03T06:52:37.026Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-10-03T06:54:40.824Z"}
+{"level":"info","message":"A user connected","query":{"EIO":"4","t":"xygujlna","transport":"polling"},"timestamp":"2024-10-03T06:54:40.852Z"}

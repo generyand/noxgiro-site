@@ -72,8 +72,8 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-40 text-white bg-gray-900">
       <div className="container flex items-center justify-between px-4 py-4 mx-auto">
         <Link to="/" className="flex items-center gap-2 text-2xl font-bold tracking-tighter">
-          <img src="src/assets/noxgiro-logo.svg" alt="NoxGiro" className="w-10 h-10" />
-          <span className="hidden md:block">NoxGiro</span>
+          {/* <img src="src/assets/noxgiro-logo.svg" alt="NoxGiro" className="w-10 h-10" /> */}
+          <p className="hidden md:block"><span className="text-blue-400">Nox</span>Giro</p>
         </Link>
         <DesktopNav />
         <MobileMenuButton isOpen={isMenuOpen} toggle={toggleMenu} />
