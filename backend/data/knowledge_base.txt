@@ -1,67 +1,176 @@
-# NoxGiro Knowledge Base
+# **Knowledge Base for NoxGiro Web Services**
 
-## Business Overview
-- **Executive Summary:** We address the challenges businesses face in web development, hosting, and customer engagement through a comprehensive solution. Our services include customized websites, reliable hosting, and AI-powered chat support for enhanced customer interactions.
-- **Problem:** Many businesses struggle with online presence due to lack of expertise in design, hosting, and customer engagement tools.
-- **Solution:** Our service offers end-to-end web development, hosting, and AI-powered chat support to create responsive websites and enhance customer experience.
+## **Business Overview**
 
-## Founders
-- **Gene Ryan:** is a 21-year-old Filipino entrepreneur who is passionate about technology and business. He is the founder of NoxGiro and is dedicated to helping businesses succeed in the digital age.
-- **Vincent Ace:** is a 20-year-old Filipino student who is passionate about technology. He is a quiet but incredibly talented individual. While he may not say much, his skills speak volumes. Vincent is a key member of the NoxGiro team and contributes significantly to helping businesses succeed in the digital age.
-- **Asnari:** is a talented 21-year-old Filipino who excels in marketing. His passion for technology and business drives his contributions to NoxGiro, where he plays a key role in helping businesses succeed in the digital age through his marketing expertise.
-- **Fernyl Jean:** is a talented 21-year-old Filipina designer who excels in various aspects of visual communication. Her expertise spans web design, UI/UX design, and graphic design. Fernyl Jean's creative skills and passion for technology make her a valuable asset to NoxGiro, where she contributes significantly to crafting visually appealing and user-friendly digital solutions for businesses.
-- **Bajig:** is a passionate Filipino entrepreneur with a keen interest in technology and business. As a co-founder of NoxGiro, he plays a crucial role in shaping the company's vision and strategy. Bajig's innovative mindset and dedication to leveraging technology drive NoxGiro's mission to help businesses thrive in the digital landscape.
+### **What is NoxGiro Web Services?**
+NoxGiro Web Services is a company that provides comprehensive digital solutions for businesses, specializing in web development, AI-powered chat support, and other digital services.
 
-## Services and Price
-### Website Creation:
-- Basic: ₱12,000 (up to 5 pages)
-- Standard: ₱28,000 (up to 10 pages)
-- Premium: ₱50,000 (unlimited pages, advanced features)
+### **Our Mission:**
+To empower businesses to thrive in the digital age by providing innovative and effective online solutions.
 
-### Additional Services:
-- AI Chat Support: ₱7,000 setup + ₱500/month
-- SEO Optimization: ₱4,500/month
-- Website Maintenance: ₱8,000/month
+### **Our Values:**
+* **Innovation:** Continuously exploring new technologies and approaches
+* **Customer Focus:** Prioritizing client satisfaction and needs
+* **Quality:** Delivering high-quality, reliable services
+* **Integrity:** Maintaining ethical standards and transparency
 
-## Target Market
-We cater to businesses in the Philippines aiming to improve their online presence, from small startups to large enterprises.
+## **Our Team**
 
-## Innovation and Technology
-- **Technological Advancements:** Use of modern frameworks for fast, secure, and responsive websites.
-- **AI-Powered Chat Support:** Personalized real-time assistance using company-specific data.
-- **Creative Web Design:** Unique and visually stunning designs optimized for user experience.
-- **Customizable Solutions:** We offer tailored packages for each client's specific needs.
+NoxGiro Web Services was founded by a diverse group of tech innovators, each bringing unique expertise to create comprehensive digital solutions:
 
-## Contact Information:
-- Email: noxgiro@gmail.com
-- Phone: +63 912 345 6789
-- Address: Digos City, Davao del Sur, Philippines
+### **Founders**
 
-## FAQs
+- **Gene Ryan** - Co-Founder & Chief Technology Officer
+ - Lead Software Engineer specializing in:
+   - Advanced AI implementation
+   - System architecture design
+   - Full-stack development
+   - Emerging technology integration
 
-### Website Development
-**Q: How long does it take to develop a website?**
-A: For a basic website (up to 5 pages), it typically takes 2-4 weeks. More complex websites may take 6-8 weeks depending on the features and design.
+- **Asnari Pacalna** - Co-Founder & Chief Marketing Officer
+ - Digital Marketing Strategist focused on:
+   - Brand development and management
+   - Market analysis and targeting
+   - Client acquisition strategies
+   - Digital campaign optimization
 
-**Q: Do you offer custom solutions outside your listed packages?**
-A: Yes, we can tailor our services to meet your specific needs. Just contact us, and we'll work out a customized package for your business.
+- **Fernyl Jean** - Co-Founder & Creative Director
+ - User Experience Expert specializing in:
+   - UX/UI design 
+   - Brand identity development
+   - Interactive design principles
+   - Visual communication strategies
 
-### Hosting and Maintenance
-**Q: Do you offer website maintenance after launch?**
-A: Yes, we offer a monthly maintenance plan starting at ₱8,000 to ensure your website is always up-to-date, secure, and performing well.
+- **Rogene Carl** - Co-Founder & Technical Lead
+ - Versatile Technology Expert contributing to:
+   - Cross-platform development
+   - Technical problem-solving
+   - Innovation implementation
+   - Quality assurance
 
-**Q: Can I upgrade my hosting plan later?**
-A: Absolutely! You can upgrade your hosting plan at any time to accommodate higher traffic or additional features.
+- **Vincent Ace** - Operations Director
+ - Business Operations Specialist ensuring:
+   - Streamlined project management
+   - Efficient workflow processes
+   - Business continuity and growth
+   - Client satisfaction and retention
 
-### AI Chat Support
-**Q: What is AI-powered chat support, and how does it work?**
-A: AI-powered chat support provides real-time assistance to your website visitors by using company-specific data to answer common questions, improving customer engagement and satisfaction.
+Our leadership team's combined expertise enables NoxGiro to deliver innovative, high-quality digital solutions while maintaining operational excellence and client focus.
 
-**Q: Is the AI chat customizable for my business?**
-A: Yes, we tailor the AI chat support based on your business data to ensure it aligns with your customer service goals.
+## **Services**
 
-**Q: Who is Jamie Denise?**
-A: Jamie Denise is a remarkable 21-year-old Filipina who radiates strength, beauty, and kindness. Despite facing numerous challenges, she continues to persevere and inspire those around her. Jamie may not always recognize her own incredible impact, but her presence has brought light and joy to the lives of many. Her resilience and compassionate nature make her a true beacon of hope for everyone fortunate enough to know her.
+### **Web Development Packages**
 
-## Conclusion
-NoxGiro is dedicated to empowering businesses through innovative web development, hosting, and AI-powered solutions, ensuring clients can thrive in the digital age.
+#### **1. Essential Spark** - ₱14,500
+*Perfect for small businesses and personal projects*
+* Complete website planning to deployment
+* Up to 7 web pages
+* Basic SEO management
+* Mobile-friendly design
+* Basic Analytics integration
+* 6 years support for minor bug fixes and updates
+
+#### **2. Core Growth** - ₱35,000
+*Designed for growing businesses*
+* Comprehensive website planning to deployment
+* Up to 25 web pages
+* Integrated forms (contact, lead generation)
+* Moderate SEO management
+* Blog or Content management system setup
+* Basic E-Commerce Functionality
+* Basic 3rd Party Integrations
+* 1 year support for bug fixes and updates
+
+#### **3. Elite Experience** - ₱65,000
+*For advanced customization needs*
+* Full service website planning to deployment
+* Unlimited Web Pages
+* Advanced E-Commerce Functionality
+* Comprehensive 3rd Party Integrations
+* Advanced SEO Management
+* Customized Analytics Dashboards
+* 1 year premium support
+
+*Note: All package prices are one-time fees and may vary depending on project complexity*
+
+### **Additional Services**
+
+#### **1. NoxGiro +**
+*Enhance customer support with AI-powered tools*
+* AI Chatbot Support integration
+* Advanced Chatbot customization
+* Multiple language support
+* Data-driven responses
+
+**Pricing:**
+* ₱7,500 one-time setup
+* ₱500/month maintenance & updates
+
+#### **2. Boost & Shine** - ₱9,500/month
+*Improve website visibility and performance*
+* Advanced SEO Management
+* Regular Content updates and bug fixes
+* Performance Monitoring
+* Detailed monthly reports
+
+#### **3. E-Commerce Catalyst** - ₱15,000
+*Optimize your online store*
+* Product Management support
+* Cart and Checkout optimization
+* Integration with multiple payment gateways
+* Advanced analytics for e-commerce
+
+## **Target Market**
+
+NoxGiro Web Services caters to:
+* Small and Medium Enterprises (SMEs)
+* Startups
+* Established Businesses
+* Non-profit Organizations
+
+## **Location and Reach**
+
+- **Headquarters:** Digos City, Davao del Sur, Philippines
+- **Service Area:** While we're proudly based in Mindanao, we serve clients throughout the Philippines and globally
+- **Work Setup:** We operate both locally and remotely to accommodate clients from various locations
+
+## **Competitive Advantage**
+* **Personalized Solutions:** Tailored services to meet specific business needs
+* **AI-Powered Technology:** Advanced chatbots for enhanced customer service
+* **Comprehensive Services:** A one-stop-shop for all digital needs
+* **Strong Focus on Innovation:** Continuously exploring new technologies
+
+## **FAQs**
+
+### **Pricing and Packages**
+
+**Q: What are your pricing options for website development?**  
+A: We offer three main packages:
+1. Essential Spark at ₱14,500 for small businesses
+2. Core Growth at ₱35,000 for growing businesses
+3. Elite Experience at ₱65,000 for advanced customization
+
+**Q: Do you offer additional services beyond website development?**  
+A: Yes, we offer:
+* NoxGiro + for AI chatbot integration
+* Boost & Shine for advanced SEO and maintenance
+* E-Commerce Catalyst for online store optimization
+
+**Q: What is included in your basic website package?**  
+A: Our Essential Spark package includes:
+* Up to 7 web pages
+* Mobile-friendly design
+* Basic SEO management
+* Analytics integration
+* 6 years of support for minor updates
+
+### **Web Development**
+
+**Q: How long does it take to create a website?**  
+A: Timeline depends on the package and complexity. We provide estimated timelines during initial consultation.
+
+**Q: Can you help with my existing website?**  
+A: Yes, we offer services such as website redesign, optimization, and maintenance for existing websites.
+
+**Q: What technologies do you use?**  
+A: We use modern technologies including HTML, CSS, JavaScript, and popular frameworks like React, Angular, and Vue.

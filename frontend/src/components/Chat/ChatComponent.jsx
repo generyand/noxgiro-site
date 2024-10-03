@@ -32,18 +32,15 @@ const ChatComponent = ({ onClose }) => {
 
   const scrollToBottom = useCallback(() => {
     if (messageListRef.current) {
-      messageListRef.current.scrollTop = messageListRef.current.scrollHeight;
+      setTimeout(() => {
+        messageListRef.current.scrollTop = messageListRef.current.scrollHeight;
+      }, 0);
     }
   }, []);
 
   useEffect(() => {
     scrollToBottom();
   }, [messages, isAiTyping, scrollToBottom]);
-
-  useEffect(() => {
-    addInitialMessage();
-    scrollToBottom();
-  }, [addInitialMessage, scrollToBottom]);
 
   const handleSubmit = useCallback(
     (inputMessage) => {
@@ -120,12 +117,9 @@ const ChatComponent = ({ onClose }) => {
             <div
               className="flex-grow overflow-y-auto message-list no-scrollbar"
               aria-live="polite"
+              ref={messageListRef}
             >
-              <div
-                ref={messageListRef}
-                className="flex flex-col h-full p-4 space-y-4"
-              >
-                <div className="flex-grow" />
+              <div className="flex flex-col p-4 space-y-4">
                 {memoizedMessages}
                 {isAiTyping && <TypingIndicator />}
               </div>
