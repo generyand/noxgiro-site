@@ -5,7 +5,6 @@ import { IoClose } from "react-icons/io5";
 const ChatHeader = ({ onClose }) => (
   <div className="chat-header | flex items-center justify-between p-3 bg-gray-900/90 shadow-lg backdrop-blur-sm bg-opacity-20">
     <div className="flex items-center text-white">
-      <FaRobot className="mr-2 text-2xl text-white" />
       <h2 id="chat-title" className="text-xl font-semibold">NoxGiro</h2>
     </div>
     <button

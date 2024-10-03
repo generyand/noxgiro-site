@@ -615,3 +615,8 @@
 {"level":"info","message":"A user connected","query":{"EIO":"4","t":"xsmqvp6d","transport":"polling"},"timestamp":"2024-10-03T06:50:08.560Z"}
 {"level":"info","message":"User disconnected","timestamp":"2024-10-03T06:50:09.738Z"}
 {"level":"info","message":"A user connected","query":{"EIO":"4","t":"xsnogi0y","transport":"polling"},"timestamp":"2024-10-03T06:50:09.763Z"}
+{"level":"info","message":"Received message:","timestamp":"2024-10-03T06:51:21.774Z"}
+{"level":"info","message":"Knowledge base loaded successfully","timestamp":"2024-10-03T06:51:21.776Z"}
+{"level":"info","message":"Constructed prompt:","timestamp":"2024-10-03T06:51:21.777Z"}
+{"level":"info","message":"Formatted AI response:","timestamp":"2024-10-03T06:51:23.257Z"}
+{"level":"info","message":"Sending AI response:","timestamp":"2024-10-03T06:51:23.257Z"}
